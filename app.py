@@ -7,6 +7,7 @@ from langchain.callbacks import StreamlitCallbackHandler
 import os
 from dotenv import load_dotenv
 
+#TOOLS
 api_wrapper_wiki=WikipediaAPIWrapper(top_k_results=1,doc_content_chars_max=1000)
 wiki = WikipediaQueryRun(api_wrapper=api_wrapper_wiki)
 
@@ -14,6 +15,8 @@ api_wrapper_arxiv=ArxivAPIWrapper(top_k_results=1,doc_content_chars_max=1000)
 arxiv = ArxivQueryRun(api_wrapper=api_wrapper_arxiv)
 
 search = DuckDuckGoSearchRun(name="Search")
+
+#Streamlit
 
 st.title("Langchain Search Agent")
 
