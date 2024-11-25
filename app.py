@@ -14,6 +14,7 @@ wiki = WikipediaQueryRun(api_wrapper=api_wrapper_wiki)
 api_wrapper_arxiv=ArxivAPIWrapper(top_k_results=1,doc_content_chars_max=1000)
 arxiv = ArxivQueryRun(api_wrapper=api_wrapper_arxiv)
 
+#Serch Tool
 search = DuckDuckGoSearchRun(name="Search")
 
 #Streamlit interface
