@@ -16,7 +16,7 @@ arxiv = ArxivQueryRun(api_wrapper=api_wrapper_arxiv)
 
 search = DuckDuckGoSearchRun(name="Search")
 
-#Streamlit
+#Streamlit interface
 
 st.title("Langchain Search Agent")
 
