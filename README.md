@@ -35,5 +35,6 @@ This project implements an AI-powered search agent using the Langchain framework
 
 This project requires a valid Groq API key to function. Ensure you have the necessary credentials before using the application. The search capabilities and response quality depend on the chosen language model and the availability of the integrated APIs.
 
-Sample Output and UI of the Application:
+**Sample Output and UI of the Application:**
+
 ![Sample Output](https://github.com/user-attachments/assets/35f9a853-af5c-46cf-bdce-971f717c9569)
